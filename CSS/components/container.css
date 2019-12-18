@@ -1,0 +1,36 @@
+.logo{
+	text-justify: justify;
+    background-color: #eae9e9;
+    padding: 30px; 
+    border-radius: 4px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,.3); 
+    width: 1000px; 
+    margin: 50px auto; 
+    height: 320px; 
+    text-justify: justify;
+    background-image: url("../../images/ARTLOVER - logo.png");   
+    background-size: cover;     
+	background-position: center;
+	padding: 300px 10px;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  
+  .container, body, .banner  {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container, body, .banner {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container, body, .banner {
+    width: 300px;}}
+
